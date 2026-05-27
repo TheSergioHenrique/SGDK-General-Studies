@@ -1,0 +1,13 @@
+# SGDK build output
+out/
+*.o
+*.bin
+*.out
+symbol.txt
+
+# SGDK auto-copies these from /sgdk/ into src/boot/ at build time
+src/boot/
+
+# MIDI source (license/origin uncertain)
+*.mid
+
